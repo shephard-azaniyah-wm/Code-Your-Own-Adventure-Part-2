@@ -13,15 +13,20 @@ else {
     console.log("Well at least you're not as old as China. Sheesh he is old!");
 }
 alert("Just then a blond fellow walked up and hit America with a news paper. He lectures America about the fowl things he had stated. After so much" +
-    "yelling he turns to face you now with a shocked face at all the craziness.")
+    " yelling he turns to you.");
 
-var userAnswer = prompt ("This must be new to you, huh?");
-if(userAnswer == "yes")
+  var name = prompt("My apologies for this obnoxious student. Please allow me to introduce myself. My name is Britain. Welcome to our school!" +
+      "By any chance may I know your name?");
+
+alert("It is a pleasure to meet you.");
+
+var userAnswer = prompt("This whole school idea must be new to you, huh?");
+if(userAnswer == "word".length>= 3)
 {
-    console.log("Sweet! Well don't worry you'll get the hang of it.");
+    console.log("Well please don't stress too much. Its pretty easy going once you get use to it.");
 }
 else {
-    console.log("Oh so you must be a very wise nation.");
+    console.log("Oh well that's good! Maybe you can help organize this place a bit.");
 }
 
 var text;
