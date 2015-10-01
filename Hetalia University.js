@@ -21,7 +21,7 @@ alert("Just then a blond fellow walked up and hit America with a news paper. He 
 alert("It is a pleasure to meet you.");
 
 var userAnswer = prompt("This whole school idea must be new to you, huh?");
-if(userAnswer == "word".length>= 3)
+if(userAnswer >= 4)
 {
     console.log("Well please don't stress too much. Its pretty easy going once you get use to it.");
 }
