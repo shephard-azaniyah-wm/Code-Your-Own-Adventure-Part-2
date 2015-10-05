@@ -2,7 +2,7 @@
  * Created by session1 on 10/1/15.
  */
 confirm("Greetings fellow country. Thank you for choosing our significant school of history to learn.");
-var name = prompt ("Yo, yo, yooo! I am America here to save and lead you around this amazing campus!");
+var nameYo = prompt ("Yo, yo, yooo! I am America here to save and lead you around this amazing campus!");
 confirm("Nice to meet you!");
 var age = prompt ("I can guess your age right now, but Britain says its rude behaviour or whatever. Anyway how old are you friend?");
 if(age < 12)
@@ -12,25 +12,26 @@ if(age < 12)
 else {
     console.log("Well at least you're not as old as China. Sheesh he is old!");
 }
-alert("Just then a blond fellow walked up and hit America with a news paper. He lectures America about the fowl things he had stated. After so much" +
+alert("Just then a blond fellow walked up and hit America with a news paper. He lectures America about the fowl things he had said. After so much" +
     " yelling he turns to you.");
 
-  var name = prompt("My apologies for this obnoxious student. Please allow me to introduce myself. My name is Britain. Welcome to our school!" +
-      "By any chance may I know your name?");
+var name = prompt("My apologies for this obnoxious student. Please allow me to introduce myself. My name is Britain. Welcome to our school!" +
+    " By any chance may I know your name?");
 
 alert("It is a pleasure to meet you.");
 
 var userAnswer = prompt("This whole school idea must be new to you, huh?");
-if(userAnswer >= 4)
+if(userAnswer = "Yes")
 {
-    console.log("Well please don't stress too much. Its pretty easy going once you get use to it.");
+    console.log("Well please don't stress too much about it. Its pretty easy going once you get use to it.");
 }
 else {
     console.log("Oh well that's good! Maybe you can help organize this place a bit.");
 }
 
 var text;
-var favCharacter = prompt("Hey so check it! These 3 powerful and generous countries want to show you around! However only one can " +
+var favCharacter = prompt("A minute later Britain's phone began to ring. Britain: Hello? Oh! Yes of course, I'll be there soon." +
+    " That was the news paper club I must be on my way. Not to worry friend I have better people than America that will show you to your class. America: Hey!! Whats that suppose to mean!? Britain: Right. Well these 3 powerful and generous countries want to show you around. However only one can " +
     "be your trusty guide. Their names are Austria, Switzerland, and Belgium.");
 switch(favCharacter) {
     case "Austria":
@@ -50,3 +51,6 @@ switch(favCharacter) {
         text = "Come again? I don't believe they're available right now.";
         break;
 }
+
+confirm("Congrats friend you are on your way to becoming popular with the other nations! What benefits come with this? President of course silly! That's the only reason you're here." +
+    " By continuing to talk to other countries you will increase your chance. Keep up the good work. ");
