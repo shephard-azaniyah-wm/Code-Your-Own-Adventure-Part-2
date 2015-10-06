@@ -51,5 +51,5 @@ switch(favCharacter) {
     default:
         text = "Come again? I don't believe they're available right now.";
         break;
-}
+};
 
