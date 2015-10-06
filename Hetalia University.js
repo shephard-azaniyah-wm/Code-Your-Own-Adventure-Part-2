@@ -2,6 +2,7 @@
  * Created by session1 on 10/1/15.
  */
 confirm("Greetings fellow country. Thank you for choosing our significant school of history to learn.");
+confirm("You're goal is to become president by interacting with other nations. Can you do it? And how will you do it?")
 var nameYo = prompt ("Yo, yo, yooo! I am America here to save and lead you around this amazing campus!");
 confirm("Nice to meet you!");
 var age = prompt ("I can guess your age right now, but Britain says its rude behaviour or whatever. Anyway how old are you friend?");
@@ -52,5 +53,3 @@ switch(favCharacter) {
         break;
 }
 
-confirm("Congrats friend you are on your way to becoming popular with the other nations! What benefits come with this? President of course silly! That's the only reason you're here." +
-    " By continuing to talk to other countries you will increase your chance. Keep up the good work. ");
